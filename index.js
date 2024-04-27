@@ -2,6 +2,9 @@ const Human = {
     name: "thai",
     age: 12
 };
-if (Human.name == 1) {
-    console.log("hello");
+// log name and age
+
+if (Human) {
+    console.log(Human.name);
+    console.log(Human.name);
 }
