@@ -1,6 +1,7 @@
 const Human = {
     name: "thai",
-    age: 12
+    age: 12,
+    email:"123",
 };
 const Dog = {
     name: "nick",
