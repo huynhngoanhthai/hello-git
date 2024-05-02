@@ -1,7 +1,12 @@
 const Human = {
     name: "thai",
-    age: 12
+    age: 12,
+    email:"huynhnganhthai@gmail.com"
 };
-if (Human.name == 1) {
-    console.log("hello");
+//fix name not is number and log hello + name
+if (Human.name == "thai") {
+    console.log("hello " + Human.name);
+    console.log("age: " + Human.age);
+    console.log("email: " + Human.email);
+
 }
